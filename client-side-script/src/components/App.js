@@ -1,9 +1,9 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import StreamCreate from './components/streams/StreamCreate';
-import StreamDelete from './components/streams/StreamDelete';
-import StreamEdit from './components/streams/StreamEdit';
-import StreamList from './components/streams/StreamList';
-import StreamShow from './components/streams/StreamShow';
+import StreamCreate from './streams/StreamCreate';
+import StreamDelete from './streams/StreamDelete';
+import StreamEdit from './streams/StreamEdit';
+import StreamList from './streams/StreamList';
+import StreamShow from './streams/StreamShow';
 import Header from './Header'
 
 function App() {
@@ -27,3 +27,4 @@ function App() {
 }
 
 export default App;
+
